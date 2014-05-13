@@ -28,6 +28,7 @@ class Varnish3 < Formula
           <string>#{opt_sbin}/varnishd</string>
           <string>-n</string>
           <string>#{var}/varnish</string>
+          <string>-F</string>
           <string>-f</string>
           <string>#{etc}/varnish/default.vcl</string>
           <string>-s</string>
